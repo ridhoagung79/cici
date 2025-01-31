@@ -1,0 +1,58 @@
+/* Warna Kustom */
+:root {
+    --pink: #ff6f61;
+    --light-pink: #ff9a9e;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, var(--light-pink), var(--pink));
+    color: var(--white);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.text-pink {
+    color: var(--pink);
+}
+
+.btn-pink {
+    background-color: var(--pink);
+    color: var(--white);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover {
+    background-color: #ff3b2f;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#specialMessage {
+    animation: fadeIn 2s ease-in-out;
+}
