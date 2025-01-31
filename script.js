@@ -4,6 +4,6 @@ document.getElementById('loveButton').addEventListener('click', function () {
     specialMessage.classList.remove('hidden');
 
     // Mengubah teks tombol setelah diklik
-    this.textContent = "💖 I LOVE YOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU MUACHHHHHHHHHHHHHH 💖";
+    this.textContent = "💖 I LOVE YOUUUUUUUUUUUUU MUACHHHHHHHHH 💖";
     this.disabled = true;
 });
